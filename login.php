@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("database.clbujp5dtees.ap-northeast-2.rds.amazonaws.com", "admin", "singapore", "new_schema");
+    $con = mysqli_connect("Endpoint", "db_id", "db_password", "new_schema");
     mysqli_query($con, 'SET NAMES utf8');
  
     $id = $_POST["id"];
